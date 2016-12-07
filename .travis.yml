@@ -1,6 +1,12 @@
 language: cpp
-
+compiler:
+  - gcc
+# trusty (14.04) is now used instead of precise (12.04)
 sudo: required
-
-script:
-  - make -C Build
+#dist: trusty
+before_script:
+  - mkdir build
+  - cd build
+  - cmake --version
+  - cmake -DCMAKE_VERBOSE_MAKEFILE=ON ..
+script: make && ./diff_match_patch_test_string && ./diff_match_patch_test_wstring

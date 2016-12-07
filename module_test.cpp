@@ -1,4 +1,4 @@
-#include "lib/diff-match-patch-cpp-stl/diff_match_patch.h"
+#include "diff-match-patch-cpp-stl/diff_match_patch.h"
 #include <string>
 #include <iostream>
 

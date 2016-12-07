@@ -22,7 +22,7 @@ project (module_test CXX)
 #add_executable(diff_match_patch_test_wstring diff_match_patch_test_wstring.cpp)
 
 #add_executable(diff_match_patch_test_string diff_match_patch_test_string.cpp)
-add_executable(module_test diff_match_patch_test_string.cpp)
+add_executable(module_test module_test.cpp)
 
 #set_property(TARGET diff_match_patch_test_wstring PROPERTY CXX_STANDARD 11)
 #set_property(TARGET diff_match_patch_test_string PROPERTY CXX_STANDARD 11)

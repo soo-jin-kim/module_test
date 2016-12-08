@@ -13,5 +13,6 @@ int main(int argc, char **argv) {
   wstring strResult = out.first;
   // here, strResult will equal str2 above.
   wcout << strResult << endl;
+  wcout << "JIRA test" << endl;
   return 0;
 }

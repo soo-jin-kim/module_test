@@ -14,5 +14,6 @@ int main(int argc, char **argv) {
   // here, strResult will equal str2 above.
   wcout << strResult << endl;
   wcout << "JIRA test" << endl;
+  wcout << "JIRA second test" << endl;
   return 0;
 }
